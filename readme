@@ -1,0 +1,22 @@
+# Overview
+This project is a backend REST API developed in Python using FastAPI.
+It consumes data from the external API RandomUser and exposes a clean JSON endpoint returning a list of people.
+
+The focus of this solution is backend development, following good practices such as:
+async I/O
+external API integration
+error handling
+API documentation
+
+# API documentation (Swagger)
+FastAPI automatically provides an interactive API documentation with Swagger.
+
+Once the server is running, Swagger is available at the following link:
+http://127.0.0.1:8001/docs
+
+# Thunder Client (VS Code)
+
+The API can also be tested using Thunder Client tool provided by VS Code.
+
+Get people list:
+http://127.0.0.1:8001/people
